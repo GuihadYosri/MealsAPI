@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    overflow-x:hidden;
+}
+.nav{
+    width:65px;
+    height: 100%;
+}
+.nav img{
+    width:50px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+.nicons{
+    margin-bottom: 30px;
+
+
+} 
+.fa-globe,.fa-share-nodes,.nbutton:hover{
+    cursor: pointer;
+}
+#navbarbutton{
+    background-color: transparent;
+    border: none;
+}
+#expandednavbar{
+    display: none;
+
+}
+#Row,#Areas{
+ 
+    padding: 40px 0px 40px 40px;
+}
+
+#Row img{
+    width: 300px;
+    border-radius: 15px;
+}
+.menu p:hover{
+    cursor: pointer;
+}
+
+#searchimgs{
+    margin: 100px;
+}
+#searchimgs img{
+    width: 300px;
+    border-radius: 15px;
+}
+.formscont{
+    /* height: 100%; */
+    top: 30px;
+    left:200px;
+ 
+}
+.contcat{
+    top: 250px;
+    left:200px;
+   
+}
+.buttonsearch{
+    border-radius: 5px;
+   width: 550px;
+   height:40px;
+  
+    background-color: #000000!important;
+    border-color: white;
+   
+}
+.buttonsearch2{
+    border-radius: 5px;
+   width: 550px;
+   height:40px;
+  
+    background-color: white!important;
+    border-color: white;
+   
+}
+.submitbtn{
+    background-color: transparent!important;
+    top:200px
+}
+.form-control::placeholder{
+    color:#757575;
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+ }
+.layoutdiv:hover{
+    cursor: pointer;
+  
+    background-color: rgba(255,255,255,0.5);
+
+}
+.layoutdiv:hover h1{
+color:rgba(0,0,0,1)
+}
+
+.layoutdiv{
+    height:295px;
+    width:295px;
+    position:absolute;
+    background-color: rgba(255,255,255,0);
+    padding: 5px;
+    border-radius: 5px;
+  
+
+
+}
+.layoutdiv h1{
+    color: rgba(255,255,255,0);
+ position:absolute;
+ top:40%;
+}
+
+.inghov :hover{
+    cursor:pointer;
+}
